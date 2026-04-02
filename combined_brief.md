@@ -28,7 +28,7 @@ Third, most current AI proposals focus on frontier model development before depl
 ### 2. Phase 1, Voluntary With Teeth
 
 - For the first two years, deployers may obtain certified third-party audits under a federal framework.
-- In exchange, audited firms receive safe-harbor incentives, including a presumption of compliance for certain federal enforcement purposes and floor preemption against conflicting state requirements, while states remain free to go higher.
+- In exchange, audited firms receive safe-harbor incentives, including a presumption of compliance for certain federal enforcement purposes and protection from conflicting state AI requirements, creating a single national compliance pathway for firms that opt in.
 - This phase builds the auditor pipeline, normalizes standards, and prevents the policy from promising mandatory audits before the profession exists.
 
 ### 3. Certified Auditor Requirements
