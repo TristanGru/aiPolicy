@@ -1,0 +1,219 @@
+POLICY BRIEF OUTLINE: AI Accountability Oversight Board (AIAOB)
+Track: Reducing AI Risk | Due: Friday April 3, 2026 by midnight
+Format: 2 pages, 12pt Times New Roman, 1.15 spacing, 1-inch margins
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+I. POLICY RECOMMENDATION
+─────────────────────────
+  • Establish the AI Accountability Oversight Board (AIAOB)
+  • Independent federal body modeled on the PCAOB (Public Company Accounting Oversight Board)
+  • Mandate rolling audits of high-risk deployed AI systems
+  • Certify third-party AI auditing firms
+
+  What to write: One clear, declarative paragraph. Define "rolling audits" on first
+  use — continuous, change-triggered oversight with persistent data access, not
+  one-time compliance snapshots. Name the domains in scope: healthcare, criminal
+  justice, financial services, hiring, and critical infrastructure. The reader
+  should finish this paragraph knowing exactly what the policy does and why it's
+  different from existing proposals.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+II. STRATEGIC CONTEXT  (~0.5 pages)
+─────────────────────────────────────
+
+  A. The State Patchwork Is Failing
+     • CA SB-53 (Sep 2025), NY RAISE Act (Dec 2025), NYC Local Law 144, CO SB 21-169
+     • All incompatible — different scopes, standards, and targets
+     • Dec 2025 Executive Order is already preempting state laws
+     • Preemption without a replacement standard leaves deployed AI ungoverned
+
+  B. Audits Without Certified Auditors Fail (Your Exhibit A)
+     • NYC Local Law 144 mandated bias audits for AI hiring tools
+     • Only 18 of 391 covered employers (4.6%) posted compliant audit reports [1]
+     • NY State Comptroller (Dec 2025): enforcement "currently ineffective" [2]
+     • Root cause: companies picked their own auditors; auditors lacked technical expertise
+     • The lesson: a bad audit mandate creates false safety, not real accountability
+
+  C. The Deployment Gap No One Is Closing
+     • SB-53 and RAISE Act regulate frontier model developers before deployment [3][4]
+     • Nothing governs what happens after the model ships
+     • Model drift — performance degrading as real-world data diverges from training data —
+       is "the most common and least visible risk" of deployed AI systems [5]
+     • A hiring algorithm fair at launch can drift into bias by month six
+
+  D. The Enron Parallel
+     • Before Sarbanes-Oxley (2002), companies chose their own financial auditors
+     • Arthur Andersen audited Enron — the conflict of interest was structural, not personal
+     • Congress created PCAOB: independent board, certified auditors, no direct
+       company-to-auditor payment
+     • The same structural failure — self-selected, uncredentialed auditors — exists in AI today
+
+  What to write: Don't treat these as four separate sections. Weave them into two or
+  three tight paragraphs that build a single argument: the current approach (fragmented
+  state laws, voluntary frameworks, self-selected auditors) has already demonstrably
+  failed, and the structural fix is known. The NYC LL144 stat (4.6% compliance) and
+  the Enron parallel are your two strongest rhetorical weapons — use both.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+III. IMPLEMENTATION  (~0.75 pages)
+────────────────────────────────────
+
+  A. The Board
+     • Independent, non-partisan; housed under Commerce Department
+     • Self-funded via registration fees from audited companies (no appropriations needed)
+     • Sets national AI auditing standards
+     • Certifies third-party auditing firms
+     • Reports to Senate Commerce and House Energy & Commerce committees
+
+  B. Certified Auditor Requirements
+     • Core credential: technical competence (ML, statistics, model evaluation) +
+       legal/compliance knowledge (anti-discrimination law, HIPAA, FCRA)
+     • Auditing firms must employ domain experts on staff per sector audited
+       (e.g., a healthcare AI auditor knows the algorithm AND the care pathway)
+     • Annual certification renewal with continuing education
+     • AIAOB assigns firms from a certified pool — companies pay into a federal audit
+       fund, not to auditors directly (eliminates the Local Law 144 conflict of interest)
+
+  C. Audit Trigger (Bright-Line Rule)
+     Mandatory audit if the AI system meets ANY of:
+     • Makes binding decisions about individuals (denied loan, rejected application,
+       criminal risk score)
+     • Operates in a named high-risk sector (healthcare, criminal justice, hiring,
+       credit, housing, critical infrastructure)
+     • Exceeds scale thresholds (>10,000 consequential decisions/year OR
+       >50,000 users in a regulated domain)
+
+     Open source rule: Deployers are always responsible in high-risk contexts.
+     Model creators (e.g., Meta releasing Llama) are only covered if they specifically
+     develop or market models for high-risk domains.
+
+  D. The Rolling Audit Framework (Dual Trigger)
+     Change-triggered:
+     • Any model update, retraining, or new deployment context requires a new audit
+     • Closes the gap left by frameworks that certify once and never revisit
+
+     Time-tiered by risk:
+     • Tier 1 — Critical (healthcare diagnosis, criminal sentencing, autonomous systems):
+       quarterly audits + continuous monitoring access
+     • Tier 2 — High (hiring, lending, insurance underwriting): semi-annual audits
+     • Tier 3 — Elevated (content recommendation, educational assessment): annual audits
+     • If a system qualifies for multiple tiers, the highest tier applies
+
+     Audits check: performance drift, bias emergence, data integrity, alignment with
+     stated purpose, incident response capability
+
+  E. Enforcement
+     • Graduated ladder: warning → mandatory remediation plan → fines (scaled to
+       company revenue) → deployment suspension
+     • Whistleblower protections for auditors and employees
+     • Public disclosure of audit summaries (transparency without exposing trade secrets)
+
+  What to write: This is the densest section — keep each point to one sentence.
+  Lead with the board structure (it's the institutional anchor), then auditor
+  qualifications (the originality claim), then the trigger rules (the bright line),
+  then the rolling mechanism (the core differentiator). Enforcement can be one
+  sentence if you're running long. Target 375 words maximum for this entire section.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+IV. IMPACTS AND TRADE-OFFS  (~0.5 pages)
+──────────────────────────────────────────
+
+  Benefits:
+  • Closes the deployment gap — catches model drift and post-launch failures that
+    pre-deployment frameworks (SB-53, RAISE Act) cannot detect
+  • Replaces the state patchwork with one national standard, solving the fragmentation
+    the December 2025 EO creates without addressing [6]
+  • Accountability without prohibition — failed audit triggers remediation, not a ban
+  • Market-creating: certified AI auditor becomes a new professional class, like CPAs
+    after SOX; creates industry incentive to support the standard
+
+  Trade-offs:
+  • Compliance costs: real, but offset by reduced litigation exposure — a clean audit
+    record is a defensible evidentiary shield
+  • Ramp-up time: 12-18 months to build AIAOB and certify initial auditor pool;
+    phase in Tier 1 first, expand to Tiers 2 and 3 as capacity grows
+  • Regulatory capture risk: mitigated by fee-based independence, rotating board
+    membership, and mandatory public disclosure
+  • Scope: does NOT address frontier model development — designed to complement
+    SB-53 and the RAISE Act, not replace them
+
+  Resilient Benefits (addresses the "rapidly changing tech" scoring criterion):
+  • Audit standards are set by AIAOB rulemaking, not locked into statute — they
+    evolve as AI capabilities change without requiring new legislation
+  • Change-triggered audits mean no system can be certified and then materially
+    altered without review
+  • Three reasons this survives a deregulatory environment:
+    (1) Market-creating — builds a new professional industry, not just costs
+    (2) Fixes market failure — companies cannot credibly self-audit; investors and
+        customers cannot verify safety claims without an independent standard
+    (3) Reduces litigation risk — a defined audit standard limits open-ended
+        liability; compliant companies have a safe harbor industry should want
+
+  What to write: Lead with benefits, then name the trade-offs honestly — judges
+  score on whether you address them, not whether they exist. The three "deregulatory
+  survival" arguments are your closing move; they reframe the policy from "regulation"
+  to "market infrastructure." End on resilience — it's a scoring criterion and it's
+  your strongest closing argument.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CITATIONS  (do not count toward 2-page limit)
+──────────────────────────────────────────────
+
+[1] Casper, S. et al. "Null Compliance: NYC Local Law 144 and the Challenges of Algorithm
+    Accountability." Proceedings of the 2024 ACM Conference on Fairness, Accountability,
+    and Transparency (FAccT). ACM, 2024.
+    https://dl.acm.org/doi/10.1145/3630106.3658998
+
+[2] Office of the New York State Comptroller. "Enforcement of Local Law 144 — Automated
+    Employment Decision Tools." Audit Report. December 2, 2025.
+    https://www.osc.ny.gov/state-agencies/audits/2025/12/02/enforcement-local-law-144
+
+[3] Office of Governor Gavin Newsom. "Governor Newsom Signs SB 53, Advancing California's
+    World-Leading Artificial Intelligence Industry." Press Release. September 29, 2025.
+    https://www.gov.ca.gov/2025/09/29/governor-newsom-signs-sb-53
+
+[4] Carnegie Endowment for International Peace. "With the RAISE Act, New York Aligns With
+    California on Frontier AI Laws." February 2026.
+    https://carnegieendowment.org/emissary/2026/02/ai-state-law-new-york-raise-act-california-sb53
+
+[5] EC Council. "Bias, Model Drift, Hallucination: Mapping AI Risks to Governance Controls."
+    Cybersecurity Exchange. 2024.
+    https://www.eccouncil.org/cybersecurity-exchange/responsible-ai-governance/bias-model-drift
+
+[6] White House. "Ensuring a National Policy Framework for Artificial Intelligence."
+    Executive Order. December 11, 2025.
+    https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Q&A PREP  (not in the brief — for presentation only)
+──────────────────────────────────────────────────────
+
+Q: Isn't this too burdensome for small startups?
+A: The trigger thresholds (>10K decisions/year, named high-risk sectors) exempt small
+   or low-risk deployments entirely. A recipe recommender isn't audited. A loan
+   underwriting tool sold to banks is.
+
+Q: Why not just use FTC or NIST?
+A: FTC is overloaded with existing enforcement. NIST has no enforcement authority —
+   its AI Risk Management Framework is voluntary. The PCAOB model works because it is
+   independent, self-funding, and has real teeth.
+
+Q: Republicans want to abolish PCAOB — why model on something under threat?
+A: The PCAOB debate is about accounting industry consolidation, not the oversight
+   model. The AIAOB is market-creating — it builds a new professional industry —
+   which gives it bipartisan appeal independent of the PCAOB's political fate.
+
+Q: What if an AI system qualifies for multiple tiers?
+A: The highest applicable tier governs. A healthcare hiring tool (Tier 2 for hiring,
+   Tier 1 for healthcare) gets Tier 1 treatment.
+
+Q: How do you certify enough auditors fast enough?
+A: Phase in by tier. Tier 1 is the smallest set and highest stakes — stand it up
+   first. Existing cybersecurity and financial compliance auditors are a natural
+   pipeline. AIAOB sets provisional standards in year 1, full standards by year 2.
